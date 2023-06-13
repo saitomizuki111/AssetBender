@@ -1,0 +1,83 @@
+.back {
+  background-image: url('../../assets/imgs/fire_mask.png');
+  background-size : 100% 101%;
+  padding         : 0px 0px 155px;
+}
+.box {
+  border: 1px solid black !important;
+  width : fit-content;
+}
+
+@media only screen and (max-width: 1690px) {
+  .faqheader {
+    margin   : 0px 0px 50px 0px !important;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1599px) {
+  .market {
+    width : 90px !important;
+    height: 90px !important;
+  }
+}
+
+@media only screen and (max-width: 1439px) {}
+
+@media only screen and (max-width: 1370px) {
+  .market {
+    width : 80px !important;
+    height: 80px !important;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .market {
+    width : 70px !important;
+    height: 70px !important;
+  }
+}
+
+@media only screen and (max-width: 1034px) {
+  .charpan {
+    flex-direction: column !important;
+    width         : 80% !important;
+  }
+
+  .left {
+    margin: 0 auto;
+  }
+
+  .chart {
+    display        : flex;
+    justify-content: center;
+    margin-bottom  : 40px;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .accordion {
+    flex-direction: column !important;
+    margin        : 22px auto;
+  }
+
+  .accordionside {
+    margin: 0 auto;
+  }
+
+  .faqheader {
+    display        : flex;
+    justify-content: center;
+    text-align     : center !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 639px) {}
+
+@media only screen and (max-width: 559px) {}
+
+@media only screen and (max-width: 479px) {}

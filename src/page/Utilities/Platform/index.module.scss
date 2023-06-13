@@ -1,0 +1,23 @@
+.arrow{
+  @media(max-width:885px){
+    display:none;
+  }
+}
+.fanpan{
+  @media(max-width:885px){
+    flex-direction: column !important;
+
+    .arrow{
+      display:none !important;
+    }
+  }
+}
+.up{
+  @media(max-width:1024px){
+    flex-direction:column !important;
+    .side{
+      margin-left: 0px !important;
+      margin-top:50px;
+    }
+  }
+}

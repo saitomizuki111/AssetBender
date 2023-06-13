@@ -1,0 +1,14 @@
+.apexcharts-legend-text {
+  color: white !important;
+}
+
+.apexcharts-legend {
+  display: block !important;
+  margin-left: 90px;
+}
+
+@media(max-width:480px) {
+  .apexcharts-legend {
+    margin-left: 40px !important;
+  }
+}

@@ -1,0 +1,38 @@
+@media(max-width:1024px){
+  .accordionpan{
+    flex-direction: column !important;
+  }
+  .accordionside{
+    margin: 0 auto !important;
+  }
+}
+@media(max-width:1390px){
+  .line{
+    width:50px !important;
+  }
+  .processpan{
+    // flex-direction: column !important;
+  }
+  .line{
+    // display:none !important;
+  }
+}
+@media(max-width:1150px){
+  .line{
+    width:20px !important;
+  }
+}
+@media(max-width:1050px){
+  .processpan{
+    flex-direction: column !important;
+  }
+  .line{
+    display:none !important;
+  }
+  .arrow{
+    display:none !important;
+  }
+  .verticalline{
+    display:block !important;
+  }
+}

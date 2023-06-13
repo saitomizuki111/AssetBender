@@ -1,0 +1,57 @@
+.social {
+  width: 23px;
+  height: 20px;
+}
+
+.logo {
+  width: 149px;
+  height: 135px;
+}
+
+.menu {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.link {
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+}
+
+@media(max-width:1500px) {
+  .sociallink {
+    display: none !important;
+  }
+
+  .right {
+    max-width: 862px !important;
+  }
+}
+
+@media(max-width:1280px) {
+  .logo {
+    width: 80px;
+    height: 70px;
+  }
+}
+
+@media(max-width:1230px) {
+  .right {
+    max-width: 762px !important;
+  }
+}
+
+@media(max-width:1130px) {
+  .right {
+    max-width: 662px !important;
+  }
+}
+
+@media(max-width:1000px) {
+  .right {
+    max-width: 0px !important;
+  }
+}

@@ -1,0 +1,17 @@
+.body{
+   margin:20px !important;
+}
+@media(max-width:1024px){
+  .side{
+    margin-bottom:20px;
+    max-width: 100%;
+    width:100% !important;
+  }
+  .body{
+    padding-left:20px !important;
+    padding-right:20px !important;
+  }
+  .down{
+    flex-direction: column !important;
+  }
+}

@@ -1,0 +1,25 @@
+.slick-prev{
+  left:24px !important;
+}
+.slick-next{
+  right:24px !important;
+}
+.slider {
+  width: 600px;
+  height: 150px;
+  margin: 20px auto;
+  text-align: center;
+}
+.slick-slide {
+  opacity: .6;
+  filter:grayscale(100%)
+}
+
+.slick-center {
+  display: block;
+  max-width: 10% !important;
+  max-height: 20% !important;
+  opacity: 1;
+  filter:grayscale(0%);
+  transform: scale(1.1);
+}

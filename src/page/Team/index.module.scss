@@ -1,0 +1,27 @@
+.back{
+  background-image:url('../../assets//imgs/mount_mask.png');
+  background-size: 100% 101%;
+  padding:0px 0px 254px;
+}
+.back_inner{
+  width:95%;
+  margin:0 auto;
+}
+.foundercardpan{
+  @media(max-width:1068px)
+  {
+    flex-direction: column;
+  }
+}
+.teammatecardpan{
+  @media(max-width:1024px)
+  {
+    flex-direction: column;
+  }
+}
+.typecardpan{
+  @media(max-width:1060px)
+  {
+    flex-direction: column;
+  }
+}

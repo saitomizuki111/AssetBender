@@ -1,0 +1,27 @@
+.back_inner{
+  width:95%;
+  margin:0 auto;
+}
+
+@media(max-width:1310px){
+  .lotuscardpan{
+    // flex-direction: column !important;
+  }
+}
+
+.teammatecardpan{
+  @media(max-width:1086px)
+  {
+    flex-direction: column;
+  }
+}
+.lotuscardpan{
+  @media(max-width:1107px){
+    // flex-direction: column;
+  }
+}
+@media(max-width:466px){
+  .flower{
+    width:100%;
+  }
+}

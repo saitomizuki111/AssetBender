@@ -1,0 +1,5 @@
+export { default as Home } from './Home'
+export { default as RoadMap } from './RoadMap'
+export { default as Team } from './Team'
+export { default as Utilities } from './Utilities'
+export { default as Disclaimer } from './Disclaimer'

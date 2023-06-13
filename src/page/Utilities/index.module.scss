@@ -1,0 +1,16 @@
+.back {
+  background-image: url('../../assets//imgs/cloud_mask.png');
+  background-size: 100% 101%;
+  padding: 0px 0px 254px;
+}
+
+.MuiBox-root {
+  background: red !important;
+}
+
+@media(max-width:583px) {
+  .tab {
+    font-size: 11px !important;
+    padding: 12px 12px !important
+  }
+}
